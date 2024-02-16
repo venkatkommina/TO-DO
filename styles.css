@@ -138,6 +138,9 @@ li i:hover{
     .row input,ul{
         font-size: 15px;
     }
+    .row input{
+        text-align: center;
+    }
     h2{
         font-size: 18px;
     }
@@ -148,5 +151,11 @@ li i:hover{
     .todo-main{
         width: 80%;
         min-height: 840px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .todo-main{
+        min-height: 700px;
     }
 }
